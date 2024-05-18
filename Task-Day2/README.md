@@ -19,7 +19,7 @@ window.document     // remember that document is not a method
 
 | Window | Document |
 |:------|:--------|
-|<h4>scope:</h4>window is a top level object so the scope of this object is global and represents entire frame/window.| <h4>scope:</h4> Since document is a child of window it only represets the DOM. |
+|<h4>scope:</h4>window is a top level object so the scope of <br>this object is global and represents entire frame/window.| <h4>scope:</h4> Since document is a child of window it only represets the DOM. |
 |<h4>functionlaity:</h4> window handles the tasks like,<br><ul><li>managing the size</li><li>Navigation</li><li>User Interface</li></ul>for content outsite the DOM.|<h4>functionlaity:</h4>Whereas, document structure ficuses on<br><ul><li>providing structure to document</li><li>managing the content in document</li><li>provide methods and properties to manipulate the document</li></ul>|
 | <h4>properties:</h4>| <h4>properties:</h4>|
 | <h4>Events</h4> | <h4>Events</h4>|
