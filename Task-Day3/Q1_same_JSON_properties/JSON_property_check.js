@@ -8,7 +8,7 @@ key2.sort();
 
 let bool = true;
 for(let i=0;i<key1.length;i++){
-   bool = key1[i]===key2[i];
+   bool = obj1[key1[i]]===obj2[key2[i]];
    if(!bool){
     console.log("Both objects are not same")
     break;
