@@ -1,7 +1,6 @@
 let array1= [1,2,3,7,10,11];
 let array2 = [4,5,6,8,9,12];
 
-//Anonymous function
 let merge = function(arr1,arr2){
 let i=0,j=0;
 let merged = [];
@@ -19,6 +18,7 @@ console.log(merged.join(" "));
 return merged
 }
 
+//Anonymous function
 let findMedian_AF = function(arr1,arr2){
 let array1 = arr1,array2 = arr2;
 let mergedArray = merge(array1,array2);
