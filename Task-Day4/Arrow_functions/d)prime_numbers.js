@@ -28,7 +28,7 @@ let primeNumbers = (array) => {
         }
     }
     console.log(arr);
-    //console.log(arr.sort());
+    //console.log(arr.sort((a,b) => a-b));
 }
 
 primeNumbers(numArray);
