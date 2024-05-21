@@ -1,5 +1,5 @@
 let array1= [1,2,3,7,10,11];
-let array2 = [4,5,6,8,9,12,13];
+let array2 = [4,5,6,8,9,12];
 
 //Anonymous function
 let merge = function(arr1,arr2){
