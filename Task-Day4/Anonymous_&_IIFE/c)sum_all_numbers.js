@@ -10,6 +10,7 @@ let sum_AF = function(array){
 }
 sum_AF(numArray);
 
+//IIFE
 let sum_IIFE  = (function(array){
     let sum = 0;
     for(let num of array){
