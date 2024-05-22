@@ -17,7 +17,7 @@ let resume  = {
     },
     educationSection: {
         highSchool : {
-            schoolName: "Rasi Internation School",
+            schoolName: "Rasi International School",
             higherSecondary : 92.6,
             secondary : 85
         },
@@ -28,17 +28,51 @@ let resume  = {
             percentage : 73.5
         }
     },
-    Projects : ["Bus Reservation System","Image Proccessing using Fuzzy logic","Enterprises Networking with CISCO packet tracer","Research work on AAO"],
+    Projects : ["Bus Reservation System","Image Processing using Fuzzy logic","Enterprises Networking with CISCO packet tracer","Research work on AAO"],
     ExtraCurricularActivities : {
         ASCIEE : {
-            position : "Senior menber",
+            position : "Senior member",
             description : "Collaborated with other teams and conducted a Circuit building contest, resulting major positive feedbacks from participants. "
         },
         DAKSH : {
             position : "Marketing Executive",
-            description : `Raising monetary and non-monetary sponsorships and conducting workshops based on the theme of DAKSH every year. 
-            Fulfilling every promised deliverable for the sponsors.`
+            description : `Raising monetary and non-monetary sponsorships and conducting workshops based on the theme of DAKSH every year. Fulfilling every promised deliverable for the sponsors.`
         }
     }
 }
+console.log(resume);
+
+//for loop
+console.log()
+console.log("FOR LOOP")
+let keys = Object.keys(resume);
+for(let i=0;i<keys.length;i++){
+    console.log(`${keys[i]}: ${resume[keys[i]]}`);
+}
+
+// for in loop
+console.log()
+console.log("FOR IN LOOP");
+for(let key in resume){
+    console.log(resume[key]);
+}
+
+// for of loop
+console.log()
+console.log("FOR OF LOOP")
+for(let key of keys){
+    console.log(`${key}: ${resume[key]}`);
+}
+
+// forEach loop
+console.log()
+console.log("FOREACH LOOP")
+keys.forEach(x => console.log(`${x}: ${resume[x]}`));
+
+ 
+
+
+
+
+
 
